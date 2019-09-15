@@ -57,14 +57,12 @@ number.
 what was the idea and why this is cool
 - [ ] may come
 
-##Enzyclopedia Metallum: The Metal Archives
+## Enzyclopedia Metallum: The Metal Archives
 describe MA, were the data comes from and what 'features' include
 
-##album related
+## Releases
 
-###one part
-
-####and some inerpretation
+### Releases per Year, splitted by Genre
 
 168735 albums in full-length CD or vinyl selection of which 46025 were identified as duplicates (same name, band and year) and dropped  
 
@@ -107,6 +105,10 @@ Fraction of the release per year of every sub-genre
 ![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png)
 
 
+#### and some inerpretation
+
+## Types of Releases
+
 When looking for all releases I got 487000 and removed 123710 as duplicates
 
 Types of all releases:
@@ -128,6 +130,8 @@ Split video    |    179
 Releases per year splitted by release type  
 ![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/TypesPerYear.png)
 
+
+## Formats of Releases
 Formats of all releases:
 
 Format                   | Count
@@ -142,6 +146,8 @@ other (i.e. multi disc)	 |	   25727
 Releases per year splitted by release format  
 ![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png)
 
+
+## Formats splitted by Types
 
 Releases per year splitted by release format for full-length 
 ![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfFull-Length.png)
