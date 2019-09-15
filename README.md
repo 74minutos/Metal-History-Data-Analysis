@@ -62,11 +62,9 @@ describe MA, were the data comes from and what 'features' include
 
 ## Releases
 
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
 ### Releases per Year, splitted by Genre
 
-168735 albums in full-length CD or vinyl selection of which 46025 were identified as duplicates (same name, band and year) and dropped
+168,735 albums in full-length CD or vinyl selection of which 46,025 were identified as duplicates (same name, band and year) and dropped
 
 <table border="0">
  <tr>
@@ -76,42 +74,42 @@ All genre tags that were at least one year among the top ten:
 
 Genre Tag     | Count
 ------------- | -------------
-Death         | 35129
-Black         | 30920
-Heavy         | 24529
-Thrash        | 21914
-Rock          | 12538
-Power         | 12529
-Doom          | 11534
-Melodic       | 11249
-Progressive   | 11248
-Hard          |  6524
-Gothic        |  4536
-Speed         |  4567
-Groove        |  1737
-Symphonic     |  1601
-Brutal        |  1401
-Folk          |  3544
-Sludge        |  1089
-Stoner        |   843
-Atmospheric   |   613
-Hardcore      |  2136
-Crossover     |  1891
-Punk          |  1874
-NWOBHM        |  1566
+Death         | 35,129
+Black         | 30,920
+Heavy         | 24,529
+Thrash        | 21,914
+Rock          | 12,538
+Power         | 12,529
+Doom          | 11,534
+Melodic       | 11,249
+Progressive   | 11,248
+Hard          |  6,524
+Gothic        |  4,536
+Speed         |  4,567
+Groove        |  1,737
+Symphonic     |  1,601
+Brutal        |  1,401
+Folk          |  3,544
+Sludge        |  1,089
+Stoner        |    843
+Atmospheric   |    613
+Hardcore      |  2,136
+Crossover     |  1,891
+Punk          |  1,874
+NWOBHM        |  1,566
 Psychedelic   |   784
 Pop           |   412
 Various       |   376
 Glam          |   224
 Blues         |    68
 Gospel        |    10
-never in top ten| 54627  
+never in top ten| 54,627  
 </td>
     <td>
 
 
 Fraction of the release per year of every sub-genre 
-  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png" width="500" />  
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png" width="300" />  
     </td>
  </tr>
 </table>
@@ -120,7 +118,7 @@ Fraction of the release per year of every sub-genre
 
 ## Types of Releases
 
-When looking for all releases I got 487000 and removed 123710 as duplicates
+When looking for all releases I got 487,000 and removed 123,710 as duplicates
 
 <table border="0">
  <tr>
@@ -130,24 +128,24 @@ Types of all releases:
 
 Type           | Count
 ---------------|------
-Full-length    | 237335
-Demo           |  88321
-EP             |  71847
-Single         |  32775
-Split          |  21480
-Compilation    |  18875
-Live album     |   9531
-Video          |   4789
-Boxed set      |   1162
-Collaboration  |    696
-Split video    |    179  
+Full-length    | 237,335
+Demo           |  88,321
+EP             |  71,847
+Single         |  32,775
+Split          |  21,480
+Compilation    |  18,875
+Live album     |   9,531
+Video          |   4,789
+Boxed set      |   1,162
+Collaboration  |     696
+Split video    |     179  
 </td>
     <td>
 
 
 
 Releases per year splitted by release type  
-  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/TypesPerYear.png" width="500" />  
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/TypesPerYear.png" width="300" />  
     </td>
  </tr>
 </table>
@@ -164,19 +162,19 @@ Formats of all releases:
 
 Format                   | Count
 -------------------------|------
-CD                       |          218003
-Digital                  |          106624
-Cassette                 |           87117
-12" vinyl                |           34846
-7" vinyl                 |           14683
-other (i.e. multi disc)	 |	   25727  
+CD                       |   218,003
+Digital                  |   106,624
+Cassette                 |    87,117
+12" vinyl                |    34,846
+7" vinyl                 |    14,683
+other (i.e. multi disc)	 |    25,727  
 </td>
     <td>
 
 
 
 Releases per year splitted by release format  
-  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png" width="500" />  
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png" width="300" />  
     </td>
  </tr>
 </table>
@@ -185,19 +183,16 @@ Releases per year splitted by release format
 
 ## Formats splitted by Types
 
-Releases per year splitted by release format for full-length  
-![FullLength](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfFull-length.png)
+Releases per year splitted by release format for full-length | Releases per year splitted by release format for EPs  
+:--:|:--:
+![FullLength](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfFull-length.png) | ![EP](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfEP.png)
 
-Releases per year splitted by release format for EPs  
-![EP](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfEP.png)
+Releases per year splitted by release format for Singles | Releases per year splitted by release format for Demos 
+:--:|:--:
+![Single](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSingle.png) | ![Demos](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfDemos.png)
 
-Releases per year splitted by release format for Singles  
-![Single](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSingle.png)
-
-Releases per year splitted by release format for Demos 
-![Demos](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfDemos.png)
-
-Releases per year splitted by release format for Splits
-![Split](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSplit.png)
+Releases per year splitted by release format for Splits |
+:--:|:--:
+![Split](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSplit.png) |
 
 
