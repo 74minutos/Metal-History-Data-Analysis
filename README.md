@@ -57,4 +57,4 @@ number.
 
 # Analysis
 - [ ] may come
-![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/pics/master/outputGenreSplits.png)
+![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png)
