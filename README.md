@@ -4,7 +4,7 @@ The original scraper is not working at the moment. The README is not fully updat
 
 [analysis on metal-archives data by him](https://jonchar.net/notebooks/MA-Exploratory-Analysis/)
 
-[jump to analysis](https://github.com/garbersc/ma-scraper#analysis)
+[jump to analysis](https://garbersc.github.io/ma-scraper/#analysis)
 
 # Metal Archives Scraper
 
@@ -57,4 +57,4 @@ number.
 
 # Analysis
 - [ ] may come
-![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/pics/outputGenreSplits.png)
+![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/pics/master/outputGenreSplits.png)
