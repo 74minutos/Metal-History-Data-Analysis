@@ -1,3 +1,5 @@
+The original scraper is not working at the moment. The README is not updated with all addition yet and the code is not cleaned at the moment.
+
 # Metal Archives Scraper
 
 URL: http://www.metal-archives.com/
