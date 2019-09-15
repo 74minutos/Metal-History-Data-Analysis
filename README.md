@@ -116,12 +116,17 @@ Blues         |    68
 Gospel        |    10
 never in top ten| 54627  
 </td>
-    <td>  
-Fraction of the release per year of every sub-genre  
-![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png)  
+    <td>
+
+
+Fraction of the release per year of every sub-genre 
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png" width="100" />  
     </td>
  </tr>
 </table>
+
+Fraction of the release per year of every sub-genre  
+![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png) 
 
 #### and some inerpretation
 
