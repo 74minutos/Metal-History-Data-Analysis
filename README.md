@@ -1,5 +1,7 @@
-The original scraper is not working at the moment. The README is not updated with all addition yet and the code is not cleaned at the moment.
-
+The original scraper is not working at the moment. The README is not fully updated with all addition yet and the code is not cleaned at the moment.
+[original scraper](https://github.com/jonchar/ma-scraper)
+[analysis by the scraper author](https://jonchar.net/notebooks/MA-Exploratory-Analysis/)
+[jump to analysis](https://garbersc.github.io/ma-scraper/#Analysis)
 # Metal Archives Scraper
 
 URL: http://www.metal-archives.com/
@@ -48,3 +50,6 @@ name / on hold / unknown / disputed)
 Total number of bands may vary as the site is regularly updated.
 Check [their stats page](http://www.metal-archives.com/stats) for a current
 number.
+
+#Analysis
+[] may come
