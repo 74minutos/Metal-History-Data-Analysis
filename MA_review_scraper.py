@@ -23,6 +23,8 @@ import requests
 from bs4 import BeautifulSoup
 from pandas import DataFrame
 
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 
 BASE_URL = 'http://www.metal-archives.com'
 
@@ -35,6 +37,7 @@ URL_SUFFIX = '/json/1'
 response_len = 200
 encoding = 'UTF-8'
 
+
 def get_url(letter='A', start=0, length=200):
     """Gets the review listings displayed as alphabetical tables on M-A for
     input `letter`, starting at `start` and ending at `start` + `length`.
@@ -45,11 +48,12 @@ def get_url(letter='A', start=0, length=200):
                'iColumns': 7,
                'iDisplayStart': start,
                'iDisplayLength': length}
-    
+
     r = requests.get(BASE_URL + URL_EXT_ALPHA + letter + URL_SUFFIX,
-                     params=payload)
+                     params=payload, headers=headers)
 
     return r
+
 
 # Data columns in the returned JSON
 alpha_col_names = ['BandName', 'ReviewLink', 'BandLink', 'AlbumLink',
@@ -95,7 +99,7 @@ for letter in ['A']:
         print('Fetching review entries', start, 'to ', end)
 
         for attempt in range(10):
-            time.sleep(3) # Obeying their robots.txt "Crawl-delay: 3"
+            time.sleep(3)  # Obeying their robots.txt "Crawl-delay: 3"
             try:
                 r = get_url(letter=letter, start=start, length=response_len)
                 r.encoding = encoding
@@ -115,20 +119,22 @@ for letter in ['A']:
         print('Fetching review content...')
         for n, link in enumerate(df['ReviewLink']):
             time.sleep(3)
-            print('Review #', n+1)
+            print('Review #', n + 1)
             linksoup = BeautifulSoup(link, 'html.parser')
-            review_page = requests.get(linksoup.a['href'])
+            review_page = requests.get(linksoup.a['href'], headers=headers)
             review_page.encoding = encoding
             review_soup = BeautifulSoup(review_page.text, 'html.parser')
             review_title = review_soup.find_all('h3')[0].text.strip()[:-6]
             review_titles.append(review_title)
-            review = review_soup.find_all('div', {'class': 'reviewContent'})[0].text
+            review = review_soup.find_all(
+                'div', {'class': 'reviewContent'})[0].text
             reviews.append(review)
 
         # Store review data & save to disk
         df['ReviewTitle'] = review_titles
         df['ReviewContent'] = reviews
-        f_name = 'MA-reviews_{}_{}{:03d}.csv'.format(date_of_scraping, letter, i)
+        f_name = 'MA-reviews_{}_{}{:03d}.csv'.format(
+            date_of_scraping, letter, i)
         f_name = 'MA-reviews_' + date_of_scraping + '_' + letter + '%03d' % i + '.csv'
         print('Writing chunk to csv file:', f_name)
         df.to_csv(f_name)

@@ -1,4 +1,6 @@
 __pycache__/
-*.py[cod]
+*~
+*.csv
 .ipynb_checkpoints
 *.png
+*.pdf
