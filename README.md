@@ -114,12 +114,11 @@ Various       |   376
 Glam          |   224
 Blues         |    68
 Gospel        |    10
-never in top ten| 54627
+never in top ten| 54627  
 </td>
-    <td>
+    <td>  
 Fraction of the release per year of every sub-genre  
-![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png)
-
+![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png)  
     </td>
  </tr>
 </table>
