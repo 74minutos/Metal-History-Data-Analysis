@@ -1,10 +1,8 @@
 The original scraper is not working at the moment. The README is not fully updated with all addition yet and the code is not cleaned at the moment.
 
-[original scraper](https://github.com/jonchar/ma-scraper) by @jonchar
-
-[analysis on metal-archives data by him](https://jonchar.net/notebooks/MA-Exploratory-Analysis/)
-
-[jump to analysis](https://garbersc.github.io/ma-scraper/#analysis)
+[original scraper](https://github.com/jonchar/ma-scraper) by @jonchar __
+[analysis on metal-archives data by him](https://jonchar.net/notebooks/MA-Exploratory-Analysis/) __
+[jump to analysis](https://garbersc.github.io/ma-scraper/#analysis) __
 
 # Metal Archives Scraper
 
@@ -56,5 +54,5 @@ Check [their stats page](http://www.metal-archives.com/stats) for a current
 number.
 
 # Analysis
-- [ ] may come
+- [ ] may come__
 ![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png)
