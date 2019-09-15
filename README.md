@@ -62,9 +62,24 @@ describe MA, were the data comes from and what 'features' include
 
 ## Releases
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<table border="0">
+ <tr>
+    <td>Lorem ipsum ...</td>
+    <td>
+    Lorem ipsum ...
+    </td>
+ </tr>
+</table>
+
+
 ### Releases per Year, splitted by Genre
 
-168735 albums in full-length CD or vinyl selection of which 46025 were identified as duplicates (same name, band and year) and dropped  
+168735 albums in full-length CD or vinyl selection of which 46025 were identified as duplicates (same name, band and year) and dropped
+
+<table border="0">
+ <tr>
+    <td>
 
 All genre tags that were at least one year among the top ten:
 
@@ -100,10 +115,14 @@ Glam          |   224
 Blues         |    68
 Gospel        |    10
 never in top ten| 54627
-
+</td>
+    <td>
 Fraction of the release per year of every sub-genre  
 ![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png)
 
+    </td>
+ </tr>
+</table>
 
 #### and some inerpretation
 
@@ -144,24 +163,24 @@ Cassette                 |           87117
 other (i.e. multi disc)	 |	   25727
 
 Releases per year splitted by release format  
-![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png)
+![Formats](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png)
 
 
 ## Formats splitted by Types
 
-Releases per year splitted by release format for full-length 
-![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfFull-Length.png)
+Releases per year splitted by release format for full-length  
+![FullLength](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfFull-length.png)
 
 Releases per year splitted by release format for EPs  
-![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfEP.png)
+![EP](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfEP.png)
 
 Releases per year splitted by release format for Singles  
-![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSingle.png)
+![Single](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSingle.png)
 
 Releases per year splitted by release format for Demos 
-![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfDemos.png)
+![Demos](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfDemos.png)
 
 Releases per year splitted by release format for Splits
-![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSplit.png)
+![Split](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsOfSplit.png)
 
 
