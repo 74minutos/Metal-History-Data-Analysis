@@ -68,8 +68,9 @@ describe MA, were the data comes from and what 'features' include
 
 168735 albums in full-length CD or vinyl selection of which 46025 were identified as duplicates (same name, band and year) and dropped  
 
-All genre tags that were at least one year among the top ten:  
-Genre Tag  | Count
+All genre tags that were at least one year among the top ten:
+
+Genre Tag     | Count
 ------------- | -------------
 Death         | 35129
 Black         | 30920
@@ -110,8 +111,8 @@ When looking for all releases I got 487000 and removed 123710 as duplicates
 
 Types of all releases:
 
-Type | Count
------|------
+Type           | Count
+---------------|------
 Full-length    | 237335
 Demo           |  88321
 EP             |  71847
@@ -128,14 +129,15 @@ Releases per year splitted by release type
 ![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/TypesPerYear.png)
 
 Formats of all releases:
-Format | Count
------|------
-CD                              |          218003
-Digital                         |          106624
-Cassette                        |           87117
-12" vinyl                       |           34846
-7" vinyl                        |           14683
-other (i.e. multi disc)		|	   25727
+
+Format                   | Count
+-------------------------|------
+CD                       |          218003
+Digital                  |          106624
+Cassette                 |           87117
+12" vinyl                |           34846
+7" vinyl                 |           14683
+other (i.e. multi disc)	 |	   25727
 
 Releases per year splitted by release format  
 ![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png)
