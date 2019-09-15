@@ -120,7 +120,7 @@ never in top ten| 54627
 
 
 Fraction of the release per year of every sub-genre 
-  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png" width="500" />  
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png" width="700" />  
     </td>
  </tr>
 </table>
