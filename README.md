@@ -63,15 +63,6 @@ describe MA, were the data comes from and what 'features' include
 ## Releases
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<table border="0">
- <tr>
-    <td>Lorem ipsum ...</td>
-    <td>
-    Lorem ipsum ...
-    </td>
- </tr>
-</table>
-
 
 ### Releases per Year, splitted by Genre
 
@@ -120,19 +111,20 @@ never in top ten| 54627
 
 
 Fraction of the release per year of every sub-genre 
-  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png" width="700" />  
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png" width="500" />  
     </td>
  </tr>
 </table>
-
-Fraction of the release per year of every sub-genre  
-![RealeasesPerGenre](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/outputGenreSplits.png) 
 
 #### and some inerpretation
 
 ## Types of Releases
 
 When looking for all releases I got 487000 and removed 123710 as duplicates
+
+<table border="0">
+ <tr>
+    <td>
 
 Types of all releases:
 
@@ -148,13 +140,26 @@ Live album     |   9531
 Video          |   4789
 Boxed set      |   1162
 Collaboration  |    696
-Split video    |    179
+Split video    |    179  
+</td>
+    <td>
+
+
 
 Releases per year splitted by release type  
-![Types](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/TypesPerYear.png)
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/TypesPerYear.png" width="500" />  
+    </td>
+ </tr>
+</table>
+
 
 
 ## Formats of Releases
+
+<table border="0">
+ <tr>
+    <td>
+
 Formats of all releases:
 
 Format                   | Count
@@ -164,10 +169,18 @@ Digital                  |          106624
 Cassette                 |           87117
 12" vinyl                |           34846
 7" vinyl                 |           14683
-other (i.e. multi disc)	 |	   25727
+other (i.e. multi disc)	 |	   25727  
+</td>
+    <td>
+
+
 
 Releases per year splitted by release format  
-![Formats](https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png)
+  <img src="https://raw.githubusercontent.com/garbersc/ma-scraper/master/pics/FormatsPerYear.png" width="500" />  
+    </td>
+ </tr>
+</table>
+
 
 
 ## Formats splitted by Types
